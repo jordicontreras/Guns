@@ -1,0 +1,13 @@
+C:\IT_Academy\IT_Academy\Guns\Guns\Guns\bin\Debug\netcoreapp3.1\Guns.exe
+C:\IT_Academy\IT_Academy\Guns\Guns\Guns\bin\Debug\netcoreapp3.1\Guns.deps.json
+C:\IT_Academy\IT_Academy\Guns\Guns\Guns\bin\Debug\netcoreapp3.1\Guns.runtimeconfig.json
+C:\IT_Academy\IT_Academy\Guns\Guns\Guns\bin\Debug\netcoreapp3.1\Guns.runtimeconfig.dev.json
+C:\IT_Academy\IT_Academy\Guns\Guns\Guns\bin\Debug\netcoreapp3.1\Guns.dll
+C:\IT_Academy\IT_Academy\Guns\Guns\Guns\bin\Debug\netcoreapp3.1\Guns.pdb
+C:\IT_Academy\IT_Academy\Guns\Guns\Guns\obj\Debug\netcoreapp3.1\Guns.csprojAssemblyReference.cache
+C:\IT_Academy\IT_Academy\Guns\Guns\Guns\obj\Debug\netcoreapp3.1\Guns.csproj.CoreCompileInputs.cache
+C:\IT_Academy\IT_Academy\Guns\Guns\Guns\obj\Debug\netcoreapp3.1\Guns.AssemblyInfoInputs.cache
+C:\IT_Academy\IT_Academy\Guns\Guns\Guns\obj\Debug\netcoreapp3.1\Guns.AssemblyInfo.cs
+C:\IT_Academy\IT_Academy\Guns\Guns\Guns\obj\Debug\netcoreapp3.1\Guns.dll
+C:\IT_Academy\IT_Academy\Guns\Guns\Guns\obj\Debug\netcoreapp3.1\Guns.pdb
+C:\IT_Academy\IT_Academy\Guns\Guns\Guns\obj\Debug\netcoreapp3.1\Guns.genruntimeconfig.cache
