@@ -47,4 +47,12 @@ namespace Guns.Lib.Models
             return "pum PUMMM !! ..";
         }
     }
+
+    public class Gatling : IArma
+    {
+        public string Disparar()
+        {
+            return "PU PU PU PU PU PU PU PU PU PU PU PU PU PU PU PUPU PU PU PU PU PU PU PU PUUUUMMMM !! ..";
+        }
+    }
 }
