@@ -4,12 +4,12 @@ using System.Text;
 
 namespace Guns.Lib.Models
 {
-    public class Soldado
+    class Tanque
     {
         protected IArma arma;
 
         //Constructor recibe como parámetro una instancia de arma
-        public Soldado(IArma _arma)
+        public Tanque(IArma _arma)
         {
             this.arma = _arma;
         }
@@ -18,7 +18,7 @@ namespace Guns.Lib.Models
         public void CambiarArma(IArma _arma)
         {
             this.arma = _arma;
-            var cambioArma = new CambiosArma("soldado", _arma);
+            var cambioArma = new CambiosArma("tanque", _arma);
         }
 
         //Método disparar que llama a la método Disparar de la instancia de arma creada
@@ -28,39 +28,21 @@ namespace Guns.Lib.Models
         }
     }
 
-    //Clase Revolver y su método Disparar
-    public class Revolver : IArma
+    //Clase Metralleta y su método Disparar
+    public class Metralleta : IArma
     {
         public string Disparar()
         {
-            return "Pum Pum ..";
+            return "PU PU PU PU PU PU PU PU PU PU PU PU PU PU PU PUPU PU PU PU PU PU PU PU PUMMMM !! ..";
         }
     }
 
-    //Clase Rifle y su método Disparar
-    public class Rifle : IArma
+    //Clase Cannon y su método Disparar
+    public class Cannon : IArma
     {
         public string Disparar()
         {
-            return "Pum pum pum pum pum ..";
-        }
-    }
-
-    //Clase Escopeta y su método Disparar
-    public class Escopeta : IArma
-    {
-        public string Disparar()
-        {
-            return "pum PUMMM !! ..";
-        }
-    }
-
-    //Clase Gatling y su método Disparar
-    public class Gatling : IArma
-    {
-        public string Disparar()
-        {
-            return "PU PU PU PU PU PU PU PU PU PU PU PU PU PU PU PUPU PU PU PU PU PU PU PU PUUUUMMMM !! ..";
+            return "PUUUUUUUUUMMMM !! ..";
         }
     }
 }
