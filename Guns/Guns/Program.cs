@@ -16,7 +16,7 @@ namespace Guns
             Console.WriteLine(soldado.Disparar());
 
             //Cambiamos el arma de la insancia soldado a Rifle
-            soldado.CambiarArma(new Rifle());
+            soldado.CambioArma(new Rifle());
             //La instancia soldado dispara con el Rifle
             Console.WriteLine(soldado.Disparar());
 
@@ -36,7 +36,7 @@ namespace Guns
             Console.WriteLine(tanque.Disparar());
 
             //Cambiamos el arma de la instancia tanque a Metralleta
-            tanque.CambiarArma(new Metralleta());
+            tanque.CambioArma(new Metralleta());
             //La instancia tanque dispara con la Metralleta
             Console.WriteLine(tanque.Disparar());
 

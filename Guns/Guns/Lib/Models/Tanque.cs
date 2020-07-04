@@ -15,10 +15,10 @@ namespace Guns.Lib.Models
         }
 
         //Método para cambiar el arma donde recibimos como parámetro una instancia de arma y llamamos a la función que imprime el cambio por pantalla
-        public void CambiarArma(IArma _arma)
+        public void CambioArma(IArma _arma)
         {
             this.arma = _arma;
-            var cambioArma = new CambiosArma("tanque", _arma);
+            Console.WriteLine("Tanque cambio a " + this.arma);
         }
 
         //Método disparar que llama a la método Disparar de la instancia de arma creada
